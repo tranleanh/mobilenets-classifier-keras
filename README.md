@@ -9,9 +9,10 @@ Object Classification with MobileNet/MobileNetv2 on Custom Datasets.
 - Keras
 
 ## Preparation
-- Training: Config Dataset and Number of Categories in [train.py](https://github.com/tranleanh/mobilenets-classifier-keras/blob/main/train.py)
+- (Optional) Verify your GPU(s) in [verify_gpu.py](https://github.com/tranleanh/mobilenets-classifier-keras/blob/main/verify_gpu.py) 
 - (Optional) Config Classification Head (Top Layers/Activation Functions) in [mobilenet.py](https://github.com/tranleanh/mobilenets-classifier-keras/blob/main/mobilenet.py) 
 or [mobilenetv2.py](https://github.com/tranleanh/mobilenets-classifier-keras/blob/main/mobilenetv2.py)
+- Training: Config Dataset and Number of Categories in [train.py](https://github.com/tranleanh/mobilenets-classifier-keras/blob/main/train.py)
 - Testing: Config Test Images in [test.py](https://github.com/tranleanh/mobilenets-classifier-keras/blob/main/test.py)
 
 ## Train/Test
